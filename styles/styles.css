@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    font-family:'Open-Sans',sans-serif ;
+    color:rgb(44,41,44);
+    background-color: rgb(238, 168, 238);
+
+}
+#mainheader{
+    background-color: rgb(117, 166, 223);
+    color:black;
+    padding:2rem 5%; 
+    text-align: center;
+} 
+.btn{
+font:inherit;
+padding:0.5rem 1.5rem;
+background-color:  rgb(103, 42, 103);
+border:1px solid  rgb(103, 42, 103);
+color:white;
+border-radius:4px;
+cursor:pointer;
+
+
+}
+.btn-alt{
+background-color: transparent;
+border-color:transparent;
+color: rgb(103, 42, 103);
+
+
+}
+.btn:hover{
+background-color: rgb(79,18,180);
+border-color:rgb(79,18,180);
+
+}
+.btn-alt:hover{
+background-color: rgb(245,232,255);
+border-color: transparent;
+}
+
