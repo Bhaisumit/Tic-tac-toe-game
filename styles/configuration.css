@@ -47,14 +47,14 @@
 margin: 1rem;
 padding:1rem;
 width:50%;
-background-color: rgb(243,225,255);
+background: linear-gradient(to left, #3498db,pink );
 border-radius: 4px;
 box-shadow:0 1px 4px rgba(0,0,0,0.2) ;
 }
 #gameconfiguration h3{
     font-size: 1.5em;
     margin:0.5rem 0;
-    color:red;
+    
 }
 #gameconfiguration h2{
     font-size:1rem ;
@@ -63,6 +63,6 @@ box-shadow:0 1px 4px rgba(0,0,0,0.2) ;
 .playersymbol{
     font-size: 2rem;
     font-weight: bold;
-    color:rgb(47,4,82);
+    color:#fff;
     margin:0.5rem 0;
 }

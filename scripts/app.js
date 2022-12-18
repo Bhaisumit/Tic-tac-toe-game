@@ -40,6 +40,7 @@ const editplayer1btnelement=document.getElementById('editplayer1btn');
 const editplayer2btnelement=document.getElementById('editplayer2btn');
 const cancelconfigbtnelement=document.getElementById('cancelconfigbtn');
 const startgamebtnelement=document.getElementById('startgamebtn');
+const audi=document.querySelector('audio');
 
 const gameboardelement=document.getElementById('gameboard');
 

@@ -19,7 +19,7 @@
 <body>
     <div id="backdrop"></div>
     <header id="mainheader">
- <h1>Play Tic Tac Toe</h1>
+ <h1 style="font-weight:bolder">Play Tic Tac Toe</h1>
  <p>Built with HTML,CSS, Javascript</p>
 
     </header>
@@ -45,7 +45,7 @@
                 <h2>Player 1</h2>
                 <h3>PLAYER NAME</h3>
                 <p class="playersymbol">X</p>
-                <button class="btn btn-alt" id="editplayer1btn" data-playerid="1">Edit</button>
+                <button class="btn btn-alt" id="editplayer1btn" data-playerid="1">Set Name</button>
             </article>
         </li>
         <li>
@@ -53,7 +53,7 @@
                 <h2>Player 2</h2>
                 <h3>PLAYER NAME</h3>
                 <p class="playersymbol">O</p>
-                <button class="btn btn-alt" id="editplayer2btn" data-playerid="2">Edit</button>
+                <button class="btn btn-alt" id="editplayer2btn" data-playerid="2">Set Name</button>
 
             </article>
 
@@ -67,7 +67,7 @@
         <h2> you won,<span id="winnername">PLAYER NAME</span> </h2>
         <p>Click "Start New Game",above to start a new game </p>
     </article>
-    <p>Its your turn <span id="activeplayername">PLAYER NAME</span></p>
+    <p id="turn">Its your turn <span id="activeplayername">PLAYER NAME</span></p>
 <ol id="gameboard">
 <li data-col="1" data-row="1"></li>
 <li data-col="2" data-row="1"></li>
@@ -93,7 +93,10 @@
 
 
     </main>
+    <audio  loop
+    src="audio/song1.mp3" >
 
+</audio>
     
 </body>
 </html>

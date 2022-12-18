@@ -1,22 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
 body{
     margin:0;
-    font-family:'Open-Sans',sans-serif ;
-    color:rgb(44,41,44);
-    background-color: rgb(238, 168, 238);
+    font-family:'lato',sans-serif ;
+    color:rgb(15, 14, 14);
+    background: linear-gradient(to left, #3498db, white);
 
 }
 #mainheader{
-    background-color: rgb(117, 166, 223);
-    color:black;
+    color:#fff;
     padding:2rem 5%; 
     text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: 'lato';
+    /* border: 2px solid black; */
+    background-color: black;
 } 
 .btn{
 font:inherit;
 padding:0.5rem 1.5rem;
-background-color:  rgb(103, 42, 103);
+background-color:rgb(25, 25, 15);
 border:1px solid  rgb(103, 42, 103);
-color:white;
+color:#fff;
 border-radius:4px;
 cursor:pointer;
 
@@ -25,13 +32,13 @@ cursor:pointer;
 .btn-alt{
 background-color: transparent;
 border-color:transparent;
-color: rgb(103, 42, 103);
+color: black;
 
 
 }
 .btn:hover{
-background-color: rgb(79,18,180);
-border-color:rgb(79,18,180);
+    background:linear-gradient(to left, pink, #3498db);
+    border-color:#fff;
 
 }
 .btn-alt:hover{

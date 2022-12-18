@@ -26,6 +26,9 @@ function startnewgame(){
        alert('Please set custom player name!');
      return;
      }
+     setTimeout(function() {
+        audi.play();
+      }, 1000);
    resetgamestatus();
        activeplayernameelement.textContent=players[activeplayer].name;
     gameareaelement.style.display='block';
@@ -123,7 +126,7 @@ if(winnerid>0){
 else{
     gameoverelement.firstElementChild.textContent='It\'s a draw!'
 }
-
+audi.pause();
 }
 
 
